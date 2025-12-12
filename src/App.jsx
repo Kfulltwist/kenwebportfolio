@@ -78,7 +78,7 @@ function App() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.1 }}
           >
-            <img src="/img/ken.jpg" alt="Kenneth Busilan" className="profile-image" />
+            <img src="/img/projects/ken.jpg" alt="Kenneth Busilan" className="profile-image" />
           </motion.div>
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
@@ -374,7 +374,7 @@ function App() {
             whileHover={{ scale: 1.03 }}
           >
             <div className="project-image">
-              <img src="./img/projects/shanghai.png" alt="Creative Portfolio Deck" />
+              <img src="/img/projects/shanghai.png" alt="Creative Portfolio Deck" />
             </div>
             <div className="project-content">
               <h3>Shanghai Roll Pitch Deck</h3>
